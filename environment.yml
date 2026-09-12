@@ -1,0 +1,11 @@
+name: analisis_datos
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - matplotlib
+  - seaborn
+  - missingno
+  - jupyter  # Sugerido si vas a usar notebooks para el análisis
